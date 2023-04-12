@@ -1,9 +1,9 @@
-package src;
+package AnimalsPkg;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public abstract class HouseAnimal extends Animal {
-    public HouseAnimal(String name, Date birthday) {
+    public HouseAnimal(String name, LocalDate birthday) {
         super(name, birthday, AnimalType.HOUSE_ANIMAL);
     }
 }

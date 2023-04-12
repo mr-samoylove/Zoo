@@ -1,7 +1,11 @@
-
+import UI.ConsoleUI;
 
 public class Main {
     public static void main(String[] args) {
-        src.Zoo zoo = new src.Zoo();
+        AnimalsPkg.Zoo zoo = new AnimalsPkg.Zoo();
+        ConsoleUI ui = new ConsoleUI(zoo);
+
+        while (true)
+            ui.showMenu();
     }
 }

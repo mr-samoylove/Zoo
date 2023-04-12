@@ -1,4 +1,4 @@
-package src;
+package AnimalsPkg;
 
 public enum AnimalType {
     HOUSE_ANIMAL,

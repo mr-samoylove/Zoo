@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5306fa-2d78-4e7d-8af3-41cb05ce5763" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/AnimalType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Camel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Donkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/HouseAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/PackAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/Zoo.java" afterDir="false" />
+    <list default="true" id="4b5306fa-2d78-4e7d-8af3-41cb05ce5763" name="Changes" comment="backbone created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/UI/ConsoleUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/AnimalType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/AnimalType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Camel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Donkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/HouseAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/HouseAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/PackAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalsPkg/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -84,8 +81,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681199418812</updated>
-      <workItem from="1681199420559" duration="2602000" />
+      <workItem from="1681199420559" duration="2879000" />
+      <workItem from="1681288804647" duration="6178000" />
     </task>
+    <task id="LOCAL-00001" summary="backbone created">
+      <created>1681210180550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681210180550</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="backbone created" />
+    <option name="LAST_COMMIT_MESSAGE" value="backbone created" />
   </component>
 </project>
